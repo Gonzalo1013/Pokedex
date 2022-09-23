@@ -1,9 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from '../assets/statics/logo.svg';
+import '../assets/css/App.css';
+import  HeaderLoco from "../components/HeaderMio"
 
 function App() {
   return (
     <div className="App">
+      <HeaderLoco/>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
